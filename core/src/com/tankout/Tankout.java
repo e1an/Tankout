@@ -55,6 +55,8 @@ public class Tankout extends ApplicationAdapter {
         gameMap.update(Gdx.graphics.getDeltaTime());
         gameMap.render(camera, batch);
 
+        //how the fuck do we update the player 
+        //player.update(deltaTime, gravity);
         player.render(batch);
 	}
 	
